@@ -61,7 +61,8 @@ Application.Directives.directive('photo', function ($state, $stateParams, $filte
 
                     $scope.$parent.picturesOnMap = Panario.get();
 
-                    console.log($scope.picturesOnMap);
+                    console.log($scope.$parent.picturesOnMap);
+
 
                     var projection = this.getProjection();
 
