@@ -1,4 +1,0 @@
-beatroute
-=========
-
-Visualising cycling routes
